@@ -1,0 +1,11 @@
+{
+  "base_rate": 0.542,
+  "n": 30000,
+  "candidates_stale_visible": 8119,
+  "precision_at_20": 0.45,
+  "precision_at_50": 0.44,
+  "precision_at_100": 0.38,
+  "rule": "visible(impr>=100) * stale_ish(dslu>=90) * impressions_90d",
+  "reason_code": "stale_visible",
+  "action": "refresh"
+}
